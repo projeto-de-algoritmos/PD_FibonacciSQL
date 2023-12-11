@@ -12,9 +12,10 @@
 <body>
 
     <h1 class="title">FibonacciSQL</h1>
-    <label>Digite o valor index <strong>(n)</strong> a ser encontrado: </label>
-    <input type="number" min="0">
-    <button>Calcular</button>
+    <label for="index">Digite o valor index <strong>(n)</strong> a ser encontrado: </label>
+    <input type="number" min="0" id="index">
+    <button onclick="calcular()">Calcular</button>
+    <p id="result"></p>
 
     <script src="script.js"></script>
 </body>

@@ -16,6 +16,6 @@ function calcular() {
         const fibonacciResult = fibonacci(id);
         resultParagraph.textContent = `Fibonacci(${id}) = ${fibonacciResult}`;
     } else {
-        resultParagraph.textContent = 'Por favor, insira um número inteiro não negativo.';
+        resultParagraph.textContent = 'Insira um número inteiro não negativo.';
     }
 }
